@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --background-color: #FBFBFB;
+    --green-background-color: #153E52;
+    --dark-green-color: #113448;
+
+    --light-green-color: #14bf98;
+    --dark-gray-color: #484A46;
+    --light-gray-color: #787976;
+    --white-color: #FFFFFF;
+    --desabled-color: #e9ecef;
+    --dark-white-color: #dfe5ec;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var();
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, li, button, input, textarea, select, option, label{
+    font-family: 'Open Sans', sans-serif;
+}
